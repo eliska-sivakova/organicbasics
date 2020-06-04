@@ -47,7 +47,6 @@ header {
 
 a {
   text-decoration: none;
-  cursor: pointer;
   color: #A2A4AA;
 }
 
@@ -72,6 +71,7 @@ a:hover {
 
 .logocontainer {
     margin: auto;
+    cursor: pointer;
 }
 
 .burgermenu {
@@ -86,6 +86,7 @@ a:hover {
     width: 30px;
     display: flex;
     margin-right: 10px;
+    cursor: pointer;
 }  
 
 #navicon2 {
@@ -96,6 +97,7 @@ a:hover {
 
 .obnavigation {
     display: none;
+    cursor: default;
 }
 
 .subnavigation {
@@ -173,7 +175,6 @@ p {
 
 #s2 {
     padding-top: 30px;
-    padding-bottom: 50px;
     background-color: var(--light-blue);
     color: var(--dark-blue);
 }
@@ -367,6 +368,14 @@ input[type=fr] {
 
 @media only screen and (min-width:900px) {
     
+#animationlogo {
+    width: 18%;
+    padding-top: 250px;
+}    
+    
+    
+    
+    
 #oblogo {
     width: 190px;
 }
@@ -392,6 +401,7 @@ input[type=fr] {
     position: absolute;
     top: 20px;
     right: 100px;
+    cursor: pointer;
 }   
     
 #naviconnn {
@@ -425,7 +435,16 @@ input[type=fr] {
     position: absolute;
     right: 20px;
     top: 12px;
+    cursor: pointer;
     }    
+    
+#credits {
+    color: var(--dark-blue);
+    font-size: 15px;
+    position: absolute;
+    top: 45px;
+    right: 20px;
+    }
 
 #arown:hover {
         opacity: 0.4;
@@ -439,6 +458,7 @@ input[type=fr] {
 .subnavigation a:hover {
     text-decoration: underline;
     opacity: 10;
+    cursor: default;
     }
     
 .mobilenav {
@@ -554,7 +574,7 @@ input[type=fr] {
 .w2 {
     opacity: 0;
     font-size: 35px;
-    animation: animate1 10s;
+    animation: animate1 15s;
 }
 
     @keyframes animate1 {
@@ -576,11 +596,11 @@ input[type=fr] {
 #s2 {
     width: auto;
     height: auto;
+    padding-bottom: 140px;
 } 
     
 video {
-    width: 65%;
-    padding-bottom: 80px;
+    width: 55%;
 }
     
 #s4 {
